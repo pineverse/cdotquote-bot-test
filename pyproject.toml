@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "twitter-quotes-bot"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+tweepy = "4.14.0"
+tracery = "0.1.1"
+tracery3 = "1.0.0"
+colorama = "0.4.6"
+Flask = "2.3.2"
+requests = "^2.31.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
